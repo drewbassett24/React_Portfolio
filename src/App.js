@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Navbar from "./components/Nav/index";
+import "./landscapetree2.jpg"; 
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <section className="content">
+      <div>
+        <img id="card-image" className="card image img-fluid" src="./landscapetree2.jpg"
+          alt="Rural landscape with a tree." />
+      </div>
+      <div className="card-img-overlay text-white">
+        <h1 id="card-title" className="card-title ">Drew Bassett</h1>
+        <h6 id="card-text" className="card-text">"Hi. Welcome to my portfolio."</h6>
+      </div>
+    </section>
     </div>
   );
 }
