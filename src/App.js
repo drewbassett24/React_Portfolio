@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Navbar from "./components/Nav/index";
+import Banner from "./components/Banner/Banner.js";
 import "./landscapetree2.jpg"; 
 
 
@@ -8,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <section className="content">
+      <Banner />
+      <section className="Content">
       <div>
         <img id="card-image" className="card image img-fluid" src="./landscapetree2.jpg"
           alt="Rural landscape with a tree." />
