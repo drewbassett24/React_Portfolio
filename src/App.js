@@ -2,6 +2,8 @@ import React from "react";
 import './App.css';
 import Navbar from "./components/Nav/index";
 import Banner from "./components/Banner/Banner.js";
+import Bio from "./components/Bio/bio.js";
+import Footer from "./components/Footer/Foot.js";
 import "./landscapetree2.jpg"; 
 
 
@@ -10,16 +12,22 @@ function App() {
     <div className="App">
       <Navbar />
       <Banner />
-      <section className="Content">
-      <div>
-        <img id="card-image" className="card image img-fluid" src="./landscapetree2.jpg"
-          alt="Rural landscape with a tree." />
+      <section className="border rounded p-5">
+      <div className="row justify-content-center">
+        <h2> About Me </h2>
       </div>
-      <div className="card-img-overlay text-white">
-        <h1 id="card-title" className="card-title ">Drew Bassett</h1>
-        <h6 id="card-text" className="card-text">"Hi. Welcome to my portfolio."</h6>
+
+      <div className="row border rounded ">
+        
+
+        <div className="col-8 m-4 p-3">
+          {/* <h3></h3> */}
+          <p>Hi. Thanks for taking the time to look at my page.</p>
+        </div>
+        <Bio/>
       </div>
-    </section>
+      </section>
+    <Footer/>
     </div>
   );
 }
