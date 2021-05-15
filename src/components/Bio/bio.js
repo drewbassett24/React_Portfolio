@@ -5,6 +5,9 @@ const Bio = () => {
     return (
         <>
             <div class="row border rounded ">
+                <div className="row justify-content-center">
+                    <h2> About Me </h2>
+                </div>
                 <div className="col-3 m-4 p-3">
                     <img src={me} alt="Drew" />
                 </div>
@@ -22,8 +25,7 @@ const Bio = () => {
                     I love teaching, but for personal reasons, it is time to do something new. I also have a cat, called PB.
                     Family members disagree over what it stands for, but for me, it means Personal Business.
                     Those who have time for Adventures will get the reference.</p>
-                    <p>I also like walking, talking, reading, writing, drawing, watching (good) movies, Science Fiction  (The Expanse,
-                    Altered Carbon, The Quantum Thief), Roleplaying Games and good food. I like real ale and single malt
+                    <p>I also like walking, talking, reading, writing, drawing, watching (good) movies, Science Fiction, Roleplaying Games and good food. I like real ale and single malt
                 whiskey. And people. I like people.</p>
                 </div>
             </div>
