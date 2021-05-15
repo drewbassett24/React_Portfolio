@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mybtn {
+  color: #fff;
+  background-color: #506280;
+  border-color: #506280;
+  }
+
+.myhdr {
+  color: #506280;
+}
+
+.overlayLimit {
+  max-height: 230px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-inner.item {
+  width: 100%;
+}
