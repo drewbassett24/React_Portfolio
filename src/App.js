@@ -1,32 +1,35 @@
 import React from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Nav/index";
-import Banner from "./components/Banner/Banner";
-import Bio from "./components/Bio/bio";
-import Carousel from "./components/Carousel/index";
-import Footer from "./components/Footer/Foot.js";
+import Banner from "./components/Banner/banner";
+import Home from "./components/Home/home";
+import Portfolio from "./components/Portfolio/portfolio";
+import Footer from "./components/Footer/footer.js";
 import "./landscapetree2.jpg";
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div class="container-fluid card bg-light">
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div class="container-fluid card bg-light">
         <Banner />
-            <div className="row justify-content-center">
-              <h2> About Me </h2>
-            </div>
-            <div>
-              <Bio />
-            </div>
-            <div>
-              <Carousel />
-            </div>
-          </div>
+          <Switch>
+            <Route path="./Home">
+              <Home/>
+            </Route>
+            <Route path="./Portfolio">
+              <Portfolio/>
+            </Route>
+          </Switch>
+         
           <Footer />
+        </div>
       </div>
+    </Router>
   );
 }
 
