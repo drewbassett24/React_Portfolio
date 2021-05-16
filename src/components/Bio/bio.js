@@ -8,7 +8,7 @@ const Bio = () => {
                 <div className="row justify-content-center">
                     <h2> About Me </h2>
                 </div>
-                <div className="row border rounded">
+                <div className="row">
                     <div className="col-3 m-4 p-3">
                         <img src={me} alt="Drew" />
                     </div>
