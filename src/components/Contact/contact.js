@@ -9,14 +9,6 @@ const Contact = () => {
                     <Banner/>
                 </div>
                 <section class="">
-                    <div>
-                        <img id="card-image" class="card image img-fluid" src="Images/landscapetreeNI2.jpg"
-                            alt="Rural landscape with a tree, Northern Ireland." />
-                    </div>
-                    <div class="card-img-overlay text-white">
-                        <h1 id="card-title" class="card-title">Drew Bassett</h1>
-                        <h4 id="card-text" class="card-text">Contact Me</h4>
-                    </div>
                 </section>
                 <div class="row justify-content-center">
                     <div class="col col-md-4">
