@@ -17,13 +17,16 @@ function App() {
       <div className="App">
         <Navbar />
         <div class="container-fluid card bg-light">
-        <Home/>
+
           <Switch>
-            <Route path="./Portfolio">
-              <Portfolio/>
+            <Route exact path="/">
+              <Home />
             </Route>
-            <Route path="./Contact">
-              <Contact/>
+            <Route exact path="/Portfolio">
+              <Portfolio />
+            </Route>
+            <Route exact path="/Contact">
+              <Contact />
             </Route>
           </Switch>
           <Footer />
