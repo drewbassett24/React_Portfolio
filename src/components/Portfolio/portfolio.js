@@ -1,4 +1,5 @@
 import Banner from "../Banner/banner";
+
 const Portfolio = () => {
     return (
         <div>
@@ -7,10 +8,10 @@ const Portfolio = () => {
                 <div>
                     <Banner/>
                 </div>
-                <section class="container-fluid">
-                    <div class="row  m-4">
+                <section className="container-fluid">
+                    <div className="row  m-4">
 
-                        <div class="col col-md-5 p-3 border rounded">
+                        <div className="col col-md-5 p-3 border rounded">
                             <div class="row">
                                 <img src="Images/TradewiseScreenshot1.jpg" class="img-fluid mx-auto d-block"
                                     alt="Screenshot of Tradewise app deployed." />
