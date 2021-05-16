@@ -1,4 +1,17 @@
 import Banner from "../Banner/banner";
+import TradewiseScreenshot1 from "./images/TradewiseScreenshot1.jpg";
+import TradewiseScreenshot2 from "./images/TradewiseScreenshot2.jpg";
+import PassGenScreenshot1 from "./images/PassGenScreenshot1.jpg";
+import PassGenScreenshot2 from "./images/PassGenScreenshot2.jpg";
+import Project1Screenshot2 from "./images/Project1Screenshot2.jpg";
+import Project1Screenshot from "./images/Project1Screenshot.jpg";
+import Project1UserFlow from "./images/Project1UserFlow.jpg";
+import Project1Wireframe from "./images/Project1Wireframe.jpg";
+import WorkSchedulerScreenshot1 from "./images/WorkSchedulerScreenshot1.jpg";
+import WorkSchedulerScreenshot2 from "./images/WorkSchedulerScreenshot2.jpg";
+import WeatherDashScreenshot1 from "./images/WeatherDashScreenshot1.jpg";
+import WeatherDashScreenshot2 from "./images/WeatherDashScreenshot2.jpg";
+
 
 const Portfolio = () => {
     return (
@@ -13,7 +26,7 @@ const Portfolio = () => {
 
                         <div className="col col-md-5 p-3 border rounded">
                             <div class="row">
-                                <img src="Images/TradewiseScreenshot1.jpg" class="img-fluid mx-auto d-block"
+                                <img src={TradewiseScreenshot1} className="img-fluid mx-auto d-block"
                                     alt="Screenshot of Tradewise app deployed." />
                             </div>
                         </div>
@@ -22,7 +35,7 @@ const Portfolio = () => {
                         </div>
 
                         <div class="col col-md-5 p-3 mt-2 mt-md-0 border rounded object-fit float-right">
-                            <img src="Images/TradewiseScreenshot2.jpg" class="img-fluid mx-auto d-block"
+                            <img src={TradewiseScreenshot2} className="img-fluid mx-auto d-block"
                                 alt="Screenshot of Tradewise app deployed." />
                         </div>
 
@@ -48,12 +61,12 @@ const Portfolio = () => {
 
                         <div class="col col-md-5 p-3 border rounded">
                             <div class="row">
-                                <img src="Images/Project1Screenshot2.jpg" class="img-fluid mx-auto d-block"
+                                <img src={Project1Screenshot2} className="img-fluid mx-auto d-block"
                                     alt="Screenshot of Astronomical Event Search." />
                             </div>
 
                             <div class="row">
-                                <img src="Images/Project1UserFlow.jpg" class="img-fluid mx-auto d-block"
+                                <img src={Project1UserFlow} className="img-fluid mx-auto d-block"
                                     alt="Screenshot of User Workflow for Astronomical Event Search." />
                             </div>
                         </div>
@@ -62,7 +75,7 @@ const Portfolio = () => {
                         </div>
 
                         <div class="col col-md-5 p-3 mt-2 mt-md-0 border rounded object-fit float-right">
-                            <img src="Images/Project1Wireframe.jpg" class="img-fluid mx-auto d-block"
+                            <img src={Project1Wireframe} className="img-fluid mx-auto d-block"
                                 alt="Screenshot of a Password Generator app." />
                         </div>
 
@@ -86,13 +99,13 @@ const Portfolio = () => {
                 <section class="container-fluid">
                     <div class="row  m-4">
                         <div class="col col-md-5 p-3 border rounded">
-                            <img src="Images/PassGenScreenshot1.jpg" class="img-fluid mx-auto d-block"
+                            <img src={PassGenScreenshot1} className="img-fluid mx-auto d-block"
                                 alt="Screenshot of a Password Generator app." />
                         </div>
                         <div class="col-md-2">
                         </div>
                         <div class="col col-md-5 p-3 mt-2 mt-md-0 border rounded object-fit float-right">
-                            <img src="Images/PassGenScreenshot2.jpg" class="img-fluid mx-auto d-block"
+                            <img src={PassGenScreenshot2} className="img-fluid mx-auto d-block"
                                 alt="Screenshot of a Password Generator app." />
                         </div>
                     </div>
@@ -112,13 +125,13 @@ const Portfolio = () => {
                 <section class="container-fluid">
                     <div class="row  m-4">
                         <div class="col col-md-5 p-3 border rounded">
-                            <img src="Images/WorkSchedulerScreenshot2.jpg" class="img-fluid mx-auto d-block"
+                            <img src={WorkSchedulerScreenshot2} className="img-fluid mx-auto d-block"
                                 alt="Screenshot of a Work Scheduler app." />
                         </div>
                         <div class="col-md-2">
                         </div>
                         <div class="col col-md-5 p-3 mt-2 mt-md-0 border rounded object-fit float-right ">
-                            <img src="Images/WorkSchedulerScreenshot1.jpg" class="img-fluid mx-auto d-block"
+                            <img src={WorkSchedulerScreenshot1} className="img-fluid mx-auto d-block"
                                 alt="Screenshot of a Work Scheduler app." />
                         </div>
                     </div>
@@ -139,13 +152,13 @@ const Portfolio = () => {
                 <section class="container-fluid">
                     <div class="row  m-4">
                         <div class="col col-md-5 p-3 border rounded">
-                            <img src="Images/WeatherDashScreenshot1.jpg" class="img-fluid mx-auto d-block"
+                            <img src={WeatherDashScreenshot1} class="img-fluid mx-auto d-block"
                                 alt="Screenshot of a Weather Dashboard app." />
                         </div>
                         <div class="col-md-2">
                         </div>
                         <div class="col col-md-5 p-3 mt-2 mt-md-0 border rounded object-fit float-right ">
-                            <img src="Images/WeatherDashScreenshot2.jpg" class="img-fluid mx-auto d-block"
+                            <img src={WeatherDashScreenshot2} class="img-fluid mx-auto d-block"
                                 alt="Screenshot of a Weather Dashboard app." />
                         </div>
                     </div>
