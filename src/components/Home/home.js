@@ -2,6 +2,7 @@ import Banner from "../Banner/banner";
 import Bio from "../Bio/bio";
 import Carousel from "../Carousel/carousel";
 
+
 const Home = () => {
     return (
         <div>
