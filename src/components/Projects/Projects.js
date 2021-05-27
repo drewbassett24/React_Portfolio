@@ -62,10 +62,19 @@ const projectData = [
         title: "Work Scheduler app.",
         descrip: "This app was designed to help the user schedule a busy day. Hourly time slots allow the user to enter tasks or appointments, while tracking the time of day. Time slots in the past are green, those in the past are grey and the current hour is red."
     },
+    {
+        id: 6,
+        repo: "https://github.com/drewbassett24/Weather-Dashboard",
+        deployed: "https://drewbassett24.github.io/Weather-Dashboard/",
+        img: WeatherDashScreenshot1,
+        alt: "Weather-Dashboard app.",
+        title: "Weather-Dashboard app.",
+        descrip: "This app was designed to allow a user to check the weather in any city in the world, whether as a potential destination or a place remembered fondly. It provides the user with various data, from temperature to windspeed and humidity."
+    },
 
 ];
 
- const projectComponents = projectInfo.map((x) => (
+ const projectComponents = projectData.map((x) => (
      <Project
         repo={x.repo}
         deployed={x.deployed}
