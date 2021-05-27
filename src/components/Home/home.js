@@ -1,15 +1,15 @@
-import Banner from "../Banner/banner";
-import Bio from "../Bio/bio";
-import Carousel from "../Carousel/carousel";
+import Header from "../Header/Header";
+import Bio from "../Bio/Bio";
+import Carousel from "../Carousel/Carousel";
 
 
 const Home = () => {
     return (
         <div>
             <div class="container-fluid card bg-light">
-                <div>
+                {/* <div>
                     <Banner />
-                </div>
+                </div> */}
                 <div>
                     <Bio />
                 </div>

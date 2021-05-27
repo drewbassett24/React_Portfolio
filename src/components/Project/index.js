@@ -1,4 +1,4 @@
-import Banner from "./components/Banner/banner.js";
+import Header from "../Header/Header.js";
 const Project = (props) => {
   return (
     <div className="project-img">
