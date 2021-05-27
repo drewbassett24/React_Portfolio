@@ -1,12 +1,12 @@
 import React from "react";
-import Banner from "../Banner/banner";
+import Header from "../Header/Header";
 
 const Contact = () => {
     return (
         
             <main class="container-fluid card">
                 <div>
-                    <Banner/>
+                    <Header/>
                 </div>
                 <section class="">
                 </section>
