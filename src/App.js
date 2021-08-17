@@ -10,6 +10,7 @@ import Project from "./components/Projects/Projects.js";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer.js";
 import "./landscapetree2.jpg";
+import Portfolio from "./components/Portfolio/portfolio";
 
 
 function App() {
@@ -22,8 +23,8 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route exact path="/Projects">
-              <Project />
+            <Route exact path="/Portfolio">
+              <Portfolio />
             </Route>
             <Route exact path="/Contact">
               <Contact />
