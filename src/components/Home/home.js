@@ -7,9 +7,6 @@ const Home = () => {
     return (
         <div>
             <div class="container-fluid card bg-light">
-                {/* <div>
-                    <Banner />
-                </div> */}
                 <div>
                     <Bio />
                 </div>
