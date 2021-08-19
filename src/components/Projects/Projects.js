@@ -28,7 +28,7 @@ const projectData = [
     {
         id: 2,
         repo: "https://github.com/drewbassett24/ReadMeReadMe",
-        deployed: "https://drewbassett24.github.io/ReadMeReadMe/",
+        deployed: "https://github.com/drewbassett24/ReadMeReadMe",
         img: ReadMeReadMeScreenshot5,
         alt: "ReadMeReadMe app",
         title:"ReadMeReadMe",
@@ -39,8 +39,8 @@ const projectData = [
         repo: "https://github.com/drewbassett24/UoB_BC_AstronomicalEventSearch",
         deployed: "https://drewbassett24.github.io/UoB_BC_AstronomicalEventSearch/",
         img: Project1Screenshot2,
-        alt: "Astronomical Event Search." ,
-        title: "Astronomical Event Search.",
+        alt: "Astronomical Event Search" ,
+        title: "Astronomical Event Search",
         descrip: "I was part of a team that designed this app as a collaborative project. The app is intended to allow users to search for astronomical events. A selection of APIs are used to acquire data on topics such as sun and moon rise and set times, NASA's picture of the day and other information."
         
     },
@@ -58,8 +58,8 @@ const projectData = [
         repo: "https://github.com/drewbassett24/Work-Day-Scheduler",
         deployed: "https://drewbassett24.github.io/Work-Day-Scheduler/",
         img: WorkSchedulerScreenshot1,
-        alt: "Work Scheduler app.",
-        title: "Work Scheduler app.",
+        alt: "Work Scheduler app",
+        title: "Work Scheduler app",
         descrip: "This app was designed to help the user schedule a busy day. Hourly time slots allow the user to enter tasks or appointments, while tracking the time of day. Time slots in the past are green, those in the past are grey and the current hour is red."
     },
     {
@@ -67,8 +67,8 @@ const projectData = [
         repo: "https://github.com/drewbassett24/Weather-Dashboard",
         deployed: "https://drewbassett24.github.io/Weather-Dashboard/",
         img: WeatherDashScreenshot1,
-        alt: "Weather-Dashboard app.",
-        title: "Weather-Dashboard app.",
+        alt: "Weather-Dashboard app",
+        title: "Weather-Dashboard app",
         descrip: "This app was designed to allow a user to check the weather in any city in the world, whether as a potential destination or a place remembered fondly. It provides the user with various data, from temperature to windspeed and humidity."
     },
 
@@ -81,7 +81,7 @@ const projectData = [
         img={x.img}
         alt={x.alt}
         title={x.title}
-        decrip={x.descrip}
+        descrip={x.descrip}
     />
  ));
 

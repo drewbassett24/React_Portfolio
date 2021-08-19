@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "at": "^0.1.2",
     "bootstrap": "^4.6.0",
+    "bootstrap-icons": "^1.5.0",
     "install": "^0.13.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",

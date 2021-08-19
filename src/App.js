@@ -11,7 +11,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer.js";
 import "./landscapetree2.jpg";
 import Portfolio from "./components/Portfolio/portfolio";
-
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
   return (

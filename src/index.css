@@ -28,8 +28,21 @@ code {
 
 .carousel-inner img {
   margin: auto;
+  width: 60;
 }
 
 .carousel-inner.item {
-  width: 100%;
+  width: 60%;
+}
+
+.screenshot {
+  height: 50vh;
+  justify-content: center;
+}
+
+.project-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
 }
