@@ -1,18 +1,11 @@
-import ReadMeReadMeScreenshot1 from "./images/ReadMeReadMeScreenshot1.png";
-import ReadMeReadMeScreenshot3 from "./images/ReadMeReadMeScreenshot3.png";
-import ReadMeReadMeScreenshot4 from "./images/ReadMeReadMeScreenshot4.png";
+
 import ReadMeReadMeScreenshot5 from "./images/ReadMeReadMeScreenshot5.png";
 import TradewiseScreenshot1 from "./images/TradewiseScreenshot1.jpg";
-import TradewiseScreenshot2 from "./images/TradewiseScreenshot2.jpg";
 import PassGenScreenshot1 from "./images/PassGenScreenshot1.jpg";
-import PassGenScreenshot2 from "./images/PassGenScreenshot2.jpg";
 import Project1Screenshot2 from "./images/Project1Screenshot2.jpg";
-import Project1UserFlow from "./images/Project1UserFlow.jpg";
-import Project1Wireframe from "./images/Project1Wireframe.jpg";
+
 import WorkSchedulerScreenshot1 from "./images/WorkSchedulerScreenshot1.jpg";
-import WorkSchedulerScreenshot2 from "./images/WorkSchedulerScreenshot2.jpg";
 import WeatherDashScreenshot1 from "./images/WeatherDashScreenshot1.jpg";
-import WeatherDashScreenshot2 from "./images/WeatherDashScreenshot2.jpg";
 import Project from "../Project";
 
 const projectData = [
