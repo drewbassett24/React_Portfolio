@@ -15,10 +15,10 @@ const Bio = () => {
 
                     <div className="col-8 m-4 p-3">
                         <p>Hi. Thanks for taking the time to look at my page.</p>
-                        <p>I'm fifty years old and both relocating to Northern Ireland and retraining. I was a teacher for
+                        <p>I recently relocated to Northern Ireland from Birmingham and am retraining. I was a teacher for
                         twenty years, teaching TEFL in Thailand and Columbia, ESOL (English for Speakers of
                         Other Languages) in a Further Education College, and finally Literature and Language in Secondary School.
-                        Most of those switches have seen me outside my comfort zone and
+                        Most of those switches have taken me outside my comfort zone and
                         I like that. It stops you getting stuck in a rut.
                         In FE College, I had excellent training in target-setting, challenging yourself, problem-solving and basically
                         embracing the 'Discomfort Zone' despite all your instincts to do otherwise.
