@@ -37,12 +37,25 @@ code {
 
 .screenshot {
   height: 50vh;
-  justify-content: center;
+  justify-content:center;
 }
 
 .project-container {
 display: flex;
-justify-content: center;
+justify-content:center;
 flex-wrap: wrap;
 flex-direction: column;
+text-align:center;
+
+}
+
+.project-img {
+  flex-direction:column;
+  
+  max-width:60%;
+}
+
+.project-section {
+  justify-content:center;
+  
 }
