@@ -23,7 +23,7 @@ const projectData = [
         img: TradewiseScreenshot1,
         alt: "Tradewise",
         title: "Tradewise",
-        descrip: "This app was designed to provide a simple way for customers post household maintenance jobs for responce by a professional tradesman.",
+        descrip: "This app was designed to provide a simple way for customers post household maintenance jobs for response by a professional tradesman.",
     },
     {
         id: 2,
