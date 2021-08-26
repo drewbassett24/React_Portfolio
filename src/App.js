@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Project from "./components/Projects/Projects.js";
-// import Portfolio from "./components/Portfolio/portfolio";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer.js";
 import "./landscapetree2.jpg";
