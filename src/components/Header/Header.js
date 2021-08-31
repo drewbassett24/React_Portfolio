@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar.js"
+import Navbar from "../Navbar/navbar.js"
 import landscapetree2 from "./landscapetree2.jpg";
 
 
