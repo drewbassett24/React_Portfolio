@@ -1,6 +1,5 @@
-import Header from "../Header/Header";
-import Bio from "../Bio/Bio";
-import Carousel from "../Carousel/Carousel";
+import Bio from "../Bio/bio";
+import Carousel from "../carousel/carousel";
 
 
 const Home = () => {
