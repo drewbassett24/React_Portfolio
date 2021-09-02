@@ -1,10 +1,10 @@
 import React from "react";
 import { UncontrolledCarousel } from "reactstrap";
-import carousel1 from "../../assets/carousel1.jpg";
-import carousel2 from "../../assets/carousel2.jpg";
-import carousel3 from "../../assets/carousel3.jpg";
-import carousel4 from "../../assets/carousel4.jpg";
-import carousel5 from "../../assets/carousel5.jpg";
+import carousel1 from "./images/carousel1.jpg";
+import carousel2 from "./images/carousel2.jpg";
+import carousel3 from "./images/carousel3.jpg";
+import carousel4 from "./images/carousel4.jpg";
+import carousel5 from "./images/carousel5.jpg";
 
 const items = [
     {
